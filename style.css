@@ -1,0 +1,59 @@
+body
+{
+    background-color: #f1efeb99;
+}
+
+nav
+{
+    background-image: linear-gradient(to right , #93745e ,#967a68);
+    padding: 10px 200px;
+    z-index: 10000;
+}
+
+nav p
+{
+    color: rgba(255, 255, 255, 0.659);
+    margin: 0px;
+}
+
+#navbtn
+{
+    background-color: rgba(255, 255, 255, 0.31);
+}
+
+.card
+{
+    background-color: #f0ede5;
+    transition: .3s;
+}
+
+.card:hover
+{
+    box-shadow: 2px 5px 3px #967a68;
+    transform: scaleY(1);
+}
+
+a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.721);
+}
+
+footer a
+{
+    display: block;
+    transition: .3s;
+}
+
+footer a:hover
+{
+color: white;
+text-decoration: underline;
+}
+
+footer
+{
+     background-image: linear-gradient(to right , #93745e ,#967a68);
+    padding: 10px 200px;
+}
+
