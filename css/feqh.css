@@ -1,0 +1,79 @@
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(to bottom, #e8f3ef, #f6fbf9);
+        }
+
+        nav {
+    background-image: linear-gradient(to right , #93745e ,#967a68);
+    padding: 10px 5%;
+    z-index: 10000;
+}
+
+nav p {
+    color: rgba(255, 255, 255, 0.659);
+    margin: 0;
+}
+
+#navbtn {
+    background-color: rgba(255, 255, 255, 0.31);
+}
+
+.section-title {
+  text-align: right;
+  color: #93745e;
+  font-weight: 700;
+}
+
+.custom-accordion .accordion-item {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  border: 1px solid #dcdcdc;
+}
+
+.custom-accordion .accordion-button {
+  background-color: #f4f6f7;
+  font-weight: 600;
+  text-align: right;
+}
+
+.custom-accordion .accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+  color: #0e6b57;
+  box-shadow: none;
+}
+
+.custom-accordion .accordion-body {
+  background-color: #ffffff;
+}
+
+.sub-box {
+  background: #e3f3ec;
+  border: 1px solid #7cd3b2;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #0e6b57;
+  font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a {
+    display: block;
+    color: rgba(255, 255, 255, 0.721);
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer {
+    background-image: linear-gradient(to right , #93745e ,#967a68);
+    padding: 10px 5%;
+}
