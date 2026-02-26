@@ -21,12 +21,13 @@ nav p {
 .card {
     background-color: #f0ede5;
     transition: 0.3s;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.474);
+    border: 1p;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transform: translateY(-20px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.461);
 }
 
 a {
